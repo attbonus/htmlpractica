@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=S">
+    <title>Form</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="#frontend">Frontend</a></li>
+                <li><a href="#backend">Backend</a></li>
+                <li><a href="./about-us.html"> Acerca de nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <form action="">
+            <div>
+                <label for="name">Nombre</label>
+                <input type="text" id="name" placeholder="Nombre">
+
+            </div>
+            <div>
+                <label for="name">Email</label>
+                <input type="email" id="email" placeholder="email">
+            </div>
+
+            <fieldset>
+                <legend>Newsletter</legend>
+                <p>Que tipo de noticias deseas recibir?</p>
+                <input type="radio" id="html_news" name="news" value="">
+                <label for="html_news">HTML</label>
+
+                <input type="radio" id="css_news" name="news">
+                <label for="css_news">CSS</label>
+
+                <input type="radio" id="js_news" name="news">
+                <label for="js_news">JavaScript</label>
+            </fieldset>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
